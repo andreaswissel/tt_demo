@@ -1,0 +1,20 @@
+<section class="dog-detail">
+  <header>
+    <h1>Hi, my name is</h1>
+    <span ng-if="!nameEditable">{{ dog.name }}</span>
+    <input type="text" ng-model="dog.name" ng-if="nameEditable" />
+    <div ng-show="!nameEditable">
+      <a ng-click="toggleEdit()" class="icon">edit</a>
+    </div>
+    <div ng-show="nameEditable">
+      <a ng-click="toggleEdit()" class="icon">save</a>
+    </div>
+  </header>
+
+  <p>
+    {{ dog.description }}
+  </p>
+  <figure>
+    <img ng-src="./assets/img/{{ dog.img }}.jpg" alt="{{ dog.name }}" />
+  </figure>
+</section>

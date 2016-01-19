@@ -1,0 +1,8 @@
+<div class="list" style="width: 50%; margin: 0 auto;">
+  <section class="dog" ng-repeat="dog in dogs" ng-click="goToDog(dog.id)">
+    <header>
+      <h1>{{ dog.name }}</h1>
+    </header>
+    <a ng-click="goToDog(dog.id)">See doggie details</a>
+  </section>
+</div>

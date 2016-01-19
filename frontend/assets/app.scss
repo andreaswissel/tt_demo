@@ -1,0 +1,98 @@
+#app {
+  background: white;
+  color: #008bcf;
+
+  font: normal 15px Helvetica, Arial, sans-serif;
+
+  .list {
+    section.dog {
+      header {
+        h1 {
+          font: bold 20px Gotham;
+          color: #333;
+          float: left;
+          text-transform: uppercase;
+
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  section.dog-detail {
+    width: 50%;
+
+    margin: 0 auto;
+
+    header {
+      width: 100%;
+
+      float: left;
+
+      h1, span {
+        font: bold 20px Gotham;
+        color: #008bcf;
+        float: left;
+        text-transform: uppercase;
+        float: left;
+      }
+
+      span {
+        float: left;
+        margin: 17px 4px;
+      }
+
+      input {
+        float: left;
+        margin: 14px 4px;
+
+        font: bold 20px Gotham;
+        text-transform: uppercasE;
+        color: #008bcf;
+      }
+
+      .icon {
+        font-size: 24px;
+
+        float: left;
+        margin: 17px;
+      }
+    }
+
+    .icon {
+      font: normal 15px "LigatureSymbols";
+      -webkit-text-rendering: optimizeLegibility;
+      -moz-text-rendering: optimizeLegibility;
+      -ms-text-rendering: optimizeLegibility;
+      -o-text-rendering: optimizeLegibility;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: antialiased;
+      -ms-font-smoothing: antialiased;
+      -o-font-smoothing: antialiased;
+      font-smoothing: antialiased;
+
+
+      color: #333;
+      float: left;
+      text-decoration: none;
+    }
+
+    figure {
+      min-height: 200px;
+      min-width: 100%;
+      width: 100%;
+
+      border: 1px solid #333;
+      float: left;
+      margin: 0;
+
+      img {
+        height: auto;
+        width: 100%;
+
+        float: left;
+      }
+    }
+  }
+}

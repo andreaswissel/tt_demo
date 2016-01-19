@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="tt_demo">
+<head>
+  <meta charset="UTF-8">
+  <title>TT Demo</title>
+
+  <link href="./assets/app.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="app" role="main">
+    <h1>Doggyshop</h1>
+    <div ng-view></div>
+  </div>
+
+  <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+  <script>
+    var socket = io('http://localhost:3000');
+  </script>
+  <script src="./lib/angular/angular.js"></script>
+  <script src="./lib/angular-route/angular-route.js"></script>
+  <script src="./lib/lodash/lodash.min.js"></script>
+  <script src="app.js"></script>
+  <script src="./components/product/product_controller.js"></script>
+  <script src="./components/product/product_detail_controller.js"></script>
+  <script src="./components/product/product_detail_directive.js"></script>
+  <script src="./components/product/product_list_directive.js"></script>
+  <script src="./components/product/product_service.js"></script>
+</body>
+</html>
